@@ -12,6 +12,7 @@ var jmlAngkot = 10;
 var AngkotBeroperasi = 6;
 
 for (noAngkot; noAngkot <= jmlAngkot; noAngkot++) {
+  // lakukan pengecekan menggunakan pengkondisin if else
   if (noAngkot >= AngkotBeroperasi + 1) {
     console.log("Angkot No. " + noAngkot + " sedang tidak beroperasi.");
   } else {
