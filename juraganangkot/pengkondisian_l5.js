@@ -10,9 +10,7 @@ var angkotLembur2 = 10;
 for (noAngkot; noAngkot <= jmlAngkot; noAngkot++) {
   if (noAngkot <= AngkotBeroperasi) {
     console.log("Angkot No. " + noAngkot + " beroperasi dengan baik");
-  } else if (noAngkot == angkotLembur1) {
-    console.log("Angkot No. " + noAngkot + " sedang lembur");
-  } else if (noAngkot == angkotLembur2) {
+  } else if (noAngkot == angkotLembur1 || noAngkot == angkotLembur2) {
     console.log("Angkot No. " + noAngkot + " sedang lembur");
   } else {
     console.log("Angkot No. " + noAngkot + " sedang tidak dapat beroperasi");
