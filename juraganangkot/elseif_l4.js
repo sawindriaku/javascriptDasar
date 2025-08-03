@@ -22,6 +22,6 @@ for (noAngkot; noAngkot <= jmlAngkot; noAngkot++) {
   } else if (noAngkot == angkotLembur) {
     console.log("Angkot No. " + noAngkot + " sedang lembur");
   } else {
-    console.log("Angkot No. " + noAngkot + " sedang tidak beroperasi");
+    console.log("Angkot No. " + noAngkot + " sedang tidak dapat beroperasi");
   }
 }
